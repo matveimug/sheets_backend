@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/misc/sheets_backend
+    - export DEPLOYPATH=/home/user/public_html/git/sheets_backend
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
